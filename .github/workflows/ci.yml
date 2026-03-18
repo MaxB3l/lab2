@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -27,4 +27,4 @@ jobs:
       run: |
         python -c "from blueprints.api import api_bp; print('API OK')"
         python -c "from blueprints.main import main_bp; print('Main OK')"
-        python -c "from app import app; print('App OK')"
+        python -c "from music import app; print('music OK')"
