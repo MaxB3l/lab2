@@ -1,0 +1,62 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 { color: #333; }
+        .links { margin: 30px 0; }
+        .links a {
+            display: block;
+            padding: 15px 20px;
+            margin: 10px 0;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .links a:hover {
+            transform: translateX(10px);
+            background: #764ba2;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🎵 Music API</h1>
+        <p>Веб-сервис для управления музыкальными произведениями</p>
+
+        <div class="links">
+            <a href="/apidocs">📚 Swagger Документация</a>
+            <a href="/api/tracks/">📊 Все треки (JSON)</a>
+            <a href="/api/statistics/">📈 Статистика (JSON)</a>
+        </div>
+
+        <div class="footer">
+            <p><strong>Технологии:</strong> Flask, flask-restx, Swagger, Blueprint</p>
+            <p><strong>Предметная область:</strong> Музыкальные произведения</p>
+            <p>© 2026 Lab 2 Project</p>
+        </div>
+    </div>
+</body>
+</html>
