@@ -1,33 +1,6 @@
 {
-  "next_id": 23,
+  "next_id": 24,
   "tracks": [
-    {
-      "id": 1,
-      "title": "Bohemian Rhapsody",
-      "artist": "Queen",
-      "genre": "Rock",
-      "duration": 354,
-      "year": 1975,
-      "rating": 9.5
-    },
-    {
-      "id": 2,
-      "title": "Billie Jean",
-      "artist": "Michael Jackson",
-      "genre": "Pop",
-      "duration": 294,
-      "year": 1982,
-      "rating": 9.3
-    },
-    {
-      "id": 3,
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "genre": "Grunge",
-      "duration": 301,
-      "year": 1991,
-      "rating": 9.1
-    },
     {
       "id": 4,
       "title": "Hotel California",
@@ -39,21 +12,21 @@
     },
     {
       "id": 5,
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "genre": "Pop",
-      "duration": 233,
-      "year": 2017,
-      "rating": 8.7
+      "title": "string",
+      "artist": "string",
+      "genre": "string",
+      "duration": 0,
+      "year": 0,
+      "rating": 14
     },
     {
       "id": 6,
-      "title": "Stairway to Heaven",
-      "artist": "Led Zeppelin",
-      "genre": "Rock",
-      "duration": 482,
-      "year": 1971,
-      "rating": 9.6
+      "title": "s",
+      "artist": "string",
+      "genre": "string",
+      "duration": 0,
+      "year": 0,
+      "rating": 0
     },
     {
       "id": 7,
@@ -137,15 +110,6 @@
       "rating": 8.5
     },
     {
-      "id": 17,
-      "title": "Thriller",
-      "artist": "Michael Jackson",
-      "genre": "Pop",
-      "duration": 357,
-      "year": 1982,
-      "rating": 9.1
-    },
-    {
       "id": 18,
       "title": "Wonderwall",
       "artist": "Oasis",
@@ -171,6 +135,15 @@
       "duration": 285,
       "year": 2011,
       "rating": 9.0
+    },
+    {
+      "id": 23,
+      "title": "new item",
+      "artist": "new artist",
+      "genre": "neverhooded",
+      "duration": 999,
+      "year": 2222,
+      "rating": 10
     }
   ]
 }

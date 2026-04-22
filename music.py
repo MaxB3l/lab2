@@ -4,7 +4,6 @@ from blueprints.api import api_bp
 
 app = Flask(__name__)
 
-# Регистрируем Blueprint
 app.register_blueprint(main_bp)      # Сайт (/, /about)
 app.register_blueprint(api_bp)       # API (/api/*, /apidocs)
 
